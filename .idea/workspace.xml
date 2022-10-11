@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c26c197f-6dfd-4244-95a1-eba798f5d1dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/edwin/Dropbox/My PC (LAPTOP-T9FBSCV4)/Documents/Junior Year/CSC 2200/WebStorm",
+    "last_opened_file_path": "C:/Users/edwin/Dropbox/My PC (LAPTOP-T9FBSCV4)/Documents/GitHub/edwinnava.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +50,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\edwin\Dropbox\My PC (LAPTOP-T9FBSCV4)\Documents\GitHub\edwinnava.github.io" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\edwin\Dropbox\My PC (LAPTOP-T9FBSCV4)\Documents\GitHub\edwinnava.github.io" />
     </key>
@@ -63,6 +67,7 @@
       <updated>1664977814416</updated>
       <workItem from="1664977816546" duration="973000" />
       <workItem from="1665064944228" duration="2157000" />
+      <workItem from="1665456808853" duration="3147000" />
     </task>
     <servers />
   </component>
