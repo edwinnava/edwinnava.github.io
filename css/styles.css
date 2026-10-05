@@ -16,4 +16,5 @@
 #experience-timeline .vtimeline-content ul li{margin-bottom:6px}
 .project .project-subtitle{color:#3498db;font-size:0.9em;margin:0 0 10px 0}
 .project .project-tags{font-size:0.8em;font-weight:700;color:#374054;margin-bottom:0}
+.no-image .project-info a{display:inline-block;margin-top:12px}
 #view-more-projects{display:block;text-align:center;margin-top:20px}
