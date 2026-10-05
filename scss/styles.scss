@@ -999,3 +999,33 @@ footer {
     }
 
 }
+
+/* Portfolio additions */
+#experience-timeline .vtimeline-content ul {
+    margin: 0;
+    padding-left: 18px;
+    color: $text;
+
+    li {
+        margin-bottom: 6px;
+    }
+}
+
+.project .project-subtitle {
+    color: $base-color;
+    font-size: 0.9em;
+    margin: 0 0 10px 0;
+}
+
+.project .project-tags {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: $heading;
+    margin-bottom: 0;
+}
+
+#view-more-projects {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
