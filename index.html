@@ -1,81 +1,75 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Edwin Nava | Systems Administrator &amp; Cybersecurity</title>
     <meta name="description" content="Edwin Nava - Systems Administrator with 3+ years of experience, CompTIA Security+ and Microsoft SC-200 certified, focused on cybersecurity.">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <meta name="theme-color" content="#0b1120">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
+    <header class="nav" id="top">
+        <div class="nav-inner">
+            <a href="#top" class="brand"><span class="brand-mark">EN</span> Edwin Nava</a>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <nav id="nav-links" class="nav-links">
                 <a href="#about">About</a>
-            </li>
-            <li>
                 <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#certifications">Certifications</a>
-            </li>
-            <li>
                 <a href="#projects">Projects</a>
-            </li>
-            <li>
+                <a href="#certifications">Certifications</a>
                 <a href="#skills">Skills</a>
-            </li>
-            <li>
                 <a href="#contact">Contact</a>
-            </li>
-        </ul>
+                <a href="Edwin_Nava_Resume.pdf" download="Edwin_Nava_Resume.pdf" class="btn btn-small">Resume</a>
+            </nav>
+        </div>
     </header>
-    <!-- End header -->
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Edwin Nava </h1>
-            <h2>Systems Administrator &middot; Cybersecurity</h2>
-            <a href="Edwin_Nava_Resume.pdf" download="Edwin_Nava_Resume.pdf" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+    <main>
+        <section class="hero">
+            <div class="hero-grid" aria-hidden="true"></div>
+            <div class="container hero-inner">
+                <p class="eyebrow mono"><span class="pulse"></span> Open to cybersecurity roles</p>
+                <h1>Hi, I'm <span class="gradient-text">Edwin Nava</span>.</h1>
+                <p class="hero-role">Systems Administrator &middot; Cloud Security &middot; SOC Analysis</p>
+                <p class="hero-lead">
+                    I manage 15,000+ mobile devices across every ALDI USA location, and I build hands-on security labs
+                    with Microsoft Sentinel, KQL, Entra ID and Tenable Nessus.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn">View Projects <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="Edwin_Nava_Resume.pdf" download="Edwin_Nava_Resume.pdf" class="btn btn-ghost"><i class="fa fa-download" aria-hidden="true"></i> Download Resume</a>
                 </div>
-                <div class="col-md-8">
+                <div class="hero-social">
+                    <a href="https://github.com/edwinnava" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/edwinnava29/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="mailto:edwinnavaa29@gmail.com" aria-label="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </div>
+                <dl class="stats">
+                    <div><dt>15,000+</dt><dd>Devices managed</dd></div>
+                    <div><dt>3+ yrs</dt><dd>Systems administration</dd></div>
+                    <div><dt>3</dt><dd>Security certifications</dd></div>
+                    <div><dt>69 &rarr; 0</dt><dd>Critical/High vulns remediated</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container about">
+                <div class="section-head">
+                    <p class="kicker mono">01 / About</p>
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-body reveal">
                     <p>
                         I'm a Systems Administrator at ALDI USA with 3+ years of experience managing a mobile device fleet of
                         15,000+ devices across every ALDI USA location using Ivanti Neurons MDM and Apple Business Manager.
@@ -87,229 +81,220 @@
                         and Microsoft SC-200 certifications along the way. I'm looking to bring this foundation into a
                         cybersecurity-focused role.
                     </p>
+                    <div class="edu-card">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        <div>
+                            <h3>Aurora University</h3>
+                            <p>B.S. Computer Science &amp; Cybersecurity &middot; Aurora, IL &middot; May 2024</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- End #about -->
+        </section>
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="May 2023 &ndash; Present">
-                <h3>ALDI USA</h3>
-                <h4>Systems Administrator (Hybrid)</h4>
-                <ul>
-                    <li>Manage 15,000+ mobile devices across all ALDI locations with Ivanti Neurons MDM, deploying configurations, applications, and compliance policies; oversee provisioning and rights management in Apple Business Manager.</li>
-                    <li>Provide Level 2 support for iPads, iPhones, and Almex handheld scanners through ServiceNow, and coordinate with Verizon on device procurement, replacements, and curbside service rollouts.</li>
-                    <li>Took ownership of a significant procurement and replacement backlog, organized the incoming order queue, and established a process to keep it manageable.</li>
-                    <li>Audit devices against internal MDM compliance policies to identify and remediate out-of-policy devices across the fleet.</li>
-                    <li>Led enterprise deployment of BeyondTrust remote support, authoring documentation and training end users; presented the project to department directors and a VP. Superuser for Calero, testing prior to full rollout.</li>
-                    <li>Escalate leaked credentials and compromised accounts to the security team, and work with IAM on account and user group changes across stores.</li>
-                </ul>
+        <section id="experience" class="section section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <p class="kicker mono">02 / Experience</p>
+                    <h2>Where I've Worked</h2>
+                </div>
+                <ol class="timeline">
+                    <li class="timeline-item reveal">
+                        <div class="timeline-meta mono">May 2023 &ndash; Present</div>
+                        <div class="card">
+                            <h3>Systems Administrator</h3>
+                            <p class="card-sub">ALDI USA &middot; Hybrid</p>
+                            <ul class="bullets">
+                                <li>Manage 15,000+ mobile devices across all ALDI locations with Ivanti Neurons MDM, deploying configurations, applications, and compliance policies; oversee provisioning and rights management in Apple Business Manager.</li>
+                                <li>Provide Level 2 support for iPads, iPhones, and Almex handheld scanners through ServiceNow, and coordinate with Verizon on device procurement, replacements, and curbside service rollouts.</li>
+                                <li>Took ownership of a significant procurement and replacement backlog, organized the incoming order queue, and established a process to keep it manageable.</li>
+                                <li>Audit devices against internal MDM compliance policies to identify and remediate out-of-policy devices across the fleet.</li>
+                                <li>Led enterprise deployment of BeyondTrust remote support, authoring documentation and training end users; presented the project to department directors and a VP. Superuser for Calero, testing prior to full rollout.</li>
+                                <li>Escalate leaked credentials and compromised accounts to the security team, and work with IAM on account and user group changes across stores.</li>
+                            </ul>
+                            <div class="tags">
+                                <span>Ivanti Neurons MDM</span><span>Apple Business Manager</span><span>ServiceNow</span><span>BeyondTrust</span><span>Calero</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item reveal">
+                        <div class="timeline-meta mono">Nov 2020 &ndash; Sep 2023</div>
+                        <div class="card">
+                            <h3>Warehouse Associate</h3>
+                            <p class="card-sub">Amazon &middot; Channahon, IL</p>
+                            <p>Consistently met productivity and accuracy targets while demonstrating reliability in a fast-paced, high-volume environment.</p>
+                        </div>
+                    </li>
+                </ol>
             </div>
+        </section>
 
-            <div data-date="November 2020 &ndash; September 2023">
-                <h3>Amazon</h3>
-                <h4>Warehouse Associate &middot; Channahon, IL</h4>
-                <p>
-                    Consistently met productivity and accuracy targets while demonstrating reliability in a fast-paced, high-volume environment.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Aurora University</h3>
-            <span class="education-date">Graduated May 2024</span>
-            <h4>Bachelor of Science in Computer Science &amp; Cybersecurity</h4>
-            <p>Aurora, IL</p>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="certifications" class="optional-section">
-        <h2 class="heading">Certifications</h2>
-        <div class="optional-section-block">
-            <ul>
-                <li>CompTIA Security+ (SY0-701)</li>
-                <li>Microsoft Certified: Security Operations Analyst Associate (SC-200)</li>
-                <li>Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)</li>
-                <li>HTB Certified Defensive Security Analyst (CDSA) &mdash; in progress</li>
-            </ul>
-        </div>
-        <!-- End .optional-section-block -->
-    </div>
-    <!-- End #certifications -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project no-image shadow-large">
-                    <div class="project-info">
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <p class="kicker mono">03 / Projects</p>
+                    <h2>Security Labs &amp; Projects</h2>
+                </div>
+                <div class="project-grid">
+                    <article class="card project reveal">
+                        <div class="project-top">
+                            <i class="fa fa-shield project-icon" aria-hidden="true"></i>
+                            <a href="https://github.com/edwinnava/microsoft-sentinel-soc-lab" target="_blank" rel="noopener" class="project-link" aria-label="Microsoft Sentinel SIEM Lab on GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
                         <h3>Microsoft Sentinel SIEM Lab</h3>
-                        <h4 class="project-subtitle">Azure &middot; Microsoft Sentinel &middot; Entra ID</h4>
-                        <p>
-                            Built and expanded a cloud-based SOC in Microsoft Sentinel integrated with Microsoft Entra ID. Developed three KQL detection rules covering brute force (T1110), impossible travel (T1078/T1550), and privilege escalation (T1078.004); automated attack simulation with a PowerShell script using the Microsoft Graph API to validate detections programmatically; and built a SOC dashboard with Sentinel Workbooks.
-                        </p>
-                        <p class="project-tags">KQL &middot; PowerShell &middot; Microsoft Graph API &middot; MITRE ATT&amp;CK</p>
-                        <a href="https://github.com/edwinnava/microsoft-sentinel-soc-lab" target="_blank" rel="noopener">View Project on GitHub</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                        <p class="card-sub">Azure &middot; Microsoft Sentinel &middot; Entra ID</p>
+                        <p>Built and expanded a cloud-based SOC in Microsoft Sentinel integrated with Microsoft Entra ID. Developed three KQL detection rules covering brute force (T1110), impossible travel (T1078/T1550), and privilege escalation (T1078.004); automated attack simulation with a PowerShell script using the Microsoft Graph API; and built a SOC dashboard with Sentinel Workbooks.</p>
+                        <div class="tags"><span>KQL</span><span>PowerShell</span><span>Graph API</span><span>MITRE ATT&amp;CK</span></div>
+                        <a href="https://github.com/edwinnava/microsoft-sentinel-soc-lab" target="_blank" rel="noopener" class="text-link">View on GitHub <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </article>
 
-                <div class="project no-image shadow-large">
-                    <div class="project-info">
+                    <article class="card project reveal">
+                        <div class="project-top">
+                            <i class="fa fa-sitemap project-icon" aria-hidden="true"></i>
+                            <a href="https://github.com/edwinnava/Network-Traffic-Analysis-Lab" target="_blank" rel="noopener" class="project-link" aria-label="Network Traffic Analysis Lab on GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
                         <h3>Network Traffic Analysis Lab</h3>
-                        <h4 class="project-subtitle">Wireshark &middot; VMware</h4>
-                        <p>
-                            Captured and analyzed network traffic in Wireshark within an isolated VMware lab to detect ARP spoofing (man-in-the-middle) and TCP SYN port scanning, mapped to MITRE ATT&amp;CK techniques T1557 and T1046.
-                        </p>
-                        <p class="project-tags">Wireshark &middot; Packet Analysis &middot; MITRE ATT&amp;CK</p>
-                        <a href="https://github.com/edwinnava/Network-Traffic-Analysis-Lab" target="_blank" rel="noopener">View Project on GitHub</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                        <p class="card-sub">Wireshark &middot; VMware</p>
+                        <p>Captured and analyzed network traffic in Wireshark within an isolated VMware lab to detect ARP spoofing (man-in-the-middle) and TCP SYN port scanning, mapped to MITRE ATT&amp;CK techniques T1557 and T1046.</p>
+                        <div class="tags"><span>Wireshark</span><span>Packet Analysis</span><span>MITRE ATT&amp;CK</span></div>
+                        <a href="https://github.com/edwinnava/Network-Traffic-Analysis-Lab" target="_blank" rel="noopener" class="text-link">View on GitHub <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </article>
 
-                <div class="project no-image shadow-large">
-                    <div class="project-info">
+                    <article class="card project reveal">
+                        <div class="project-top">
+                            <i class="fa fa-bug project-icon" aria-hidden="true"></i>
+                            <a href="https://github.com/edwinnava/Vulnerability-Scanning-Lab-Nessus" target="_blank" rel="noopener" class="project-link" aria-label="Vulnerability Scanning Lab on GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
                         <h3>Vulnerability Scanning Lab</h3>
-                        <h4 class="project-subtitle">Tenable Nessus &middot; VMware</h4>
-                        <p>
-                            Ran credentialed and uncredentialed Tenable Nessus scans in an isolated VMware lab, prioritized findings by CVSS, VPR, and EPSS, then remediated and rescan-verified fixes &mdash; cutting Critical and High findings on a Windows 11 host from 69 to 0.
-                        </p>
-                        <p class="project-tags">Nessus &middot; Vulnerability Management &middot; Windows 11</p>
-                        <a href="https://github.com/edwinnava/Vulnerability-Scanning-Lab-Nessus" target="_blank" rel="noopener">View Project on GitHub</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                        <p class="card-sub">Tenable Nessus &middot; VMware</p>
+                        <p>Ran credentialed and uncredentialed Tenable Nessus scans in an isolated VMware lab, prioritized findings by CVSS, VPR, and EPSS, then remediated and rescan-verified fixes &mdash; cutting Critical and High findings on a Windows 11 host from 69 to 0.</p>
+                        <div class="tags"><span>Nessus</span><span>Vulnerability Management</span><span>Windows 11</span></div>
+                        <a href="https://github.com/edwinnava/Vulnerability-Scanning-Lab-Nessus" target="_blank" rel="noopener" class="text-link">View on GitHub <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </article>
 
-                <div class="project no-image shadow-large">
-                    <div class="project-info">
+                    <article class="card project reveal">
+                        <div class="project-top">
+                            <i class="fa fa-check-square-o project-icon" aria-hidden="true"></i>
+                            <span class="badge mono">Capstone</span>
+                        </div>
                         <h3>NIST 800-171 Compliance Self-Assessment Tool</h3>
-                        <h4 class="project-subtitle">Senior Capstone &middot; Aurora University</h4>
-                        <p>
-                            Developed a web-based tool aligned with NIST 800-171 that helps organizations identify security control gaps and prioritize remediation.
-                        </p>
-                        <p class="project-tags">NIST 800-171 &middot; Compliance &middot; Risk Assessment</p>
-                    </div>
-                    <!-- End .project-info -->
+                        <p class="card-sub">Senior Capstone &middot; Aurora University</p>
+                        <p>Developed a web-based tool aligned with NIST 800-171 that helps organizations identify security control gaps and prioritize remediation.</p>
+                        <div class="tags"><span>NIST 800-171</span><span>Compliance</span><span>Risk Assessment</span></div>
+                    </article>
                 </div>
-                <!-- End .project -->
+
+                <details class="earlier">
+                    <summary>View earlier projects</summary>
+                    <div class="project-grid">
+                        <article class="card project project-img">
+                            <img src="images/autos.jpg" alt="Auto car website screenshot" loading="lazy">
+                            <h3>Auto Car Website</h3>
+                            <p>A webpage showcasing cars with images and text, built with HTML and CSS positioning.</p>
+                        </article>
+                        <article class="card project project-img">
+                            <img src="images/course.jpg" alt="Course plan website screenshot" loading="lazy">
+                            <h3>Course Plan Website</h3>
+                            <p>A website tracking the courses I completed and planned for my Computer Science degree.</p>
+                        </article>
+                    </div>
+                </details>
             </div>
-            <a id="view-more-projects" href="#">View Earlier Projects</a>
-            <div id="more-projects" class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/autos.jpg" width="300" height="300" alt="Auto car website screenshot"/>
-                    </div>
-                    <div class="project-info">
-                        <h3>Auto Car Website</h3>
-                        <p>
-                            A webpage showcasing cars with images and text, built with HTML and CSS positioning.
-                        </p>
-                    </div>
-                </div>
-                <!-- End .project -->
+        </section>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/course.jpg" width="300" height="300" alt="Course plan website screenshot" />
+        <section id="certifications" class="section section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <p class="kicker mono">04 / Certifications</p>
+                    <h2>Certifications</h2>
+                </div>
+                <div class="cert-grid">
+                    <div class="card cert reveal">
+                        <span class="cert-code mono">SY0-701</span>
+                        <h3>CompTIA Security+</h3>
+                        <p>CompTIA</p>
                     </div>
-                    <div class="project-info">
-                        <h3>Course Plan Website</h3>
-                        <p>
-                            A website tracking the courses I completed and planned for my Computer Science degree.
-                        </p>
+                    <div class="card cert reveal">
+                        <span class="cert-code mono">SC-200</span>
+                        <h3>Security Operations Analyst Associate</h3>
+                        <p>Microsoft</p>
                     </div>
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Microsoft Sentinel</li>
-            <li>KQL</li>
-            <li>Microsoft Defender</li>
-            <li>Microsoft Entra ID</li>
-            <li>Microsoft 365 Security</li>
-            <li>MITRE ATT&amp;CK</li>
-            <li>Tenable Nessus</li>
-            <li>Wireshark</li>
-            <li>NIST 800-171</li>
-            <li>Ivanti Neurons MDM</li>
-            <li>Apple Business Manager</li>
-            <li>ServiceNow</li>
-            <li>BeyondTrust</li>
-            <li>Calero</li>
-            <li>PowerShell</li>
-            <li>Python</li>
-            <li>Linux</li>
-            <li>Technical Documentation</li>
-            <li>Bilingual</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/mqkjlgdn">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2026</span> Edwin Nava
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/edwinnava" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/edwinnava29/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="mailto:edwinnavaa29@gmail.com" aria-label="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
+                    <div class="card cert reveal">
+                        <span class="cert-code mono">SC-900</span>
+                        <h3>Security, Compliance &amp; Identity Fundamentals</h3>
+                        <p>Microsoft</p>
+                    </div>
+                    <div class="card cert cert-progress reveal">
+                        <span class="cert-code mono">CDSA</span>
+                        <h3>Certified Defensive Security Analyst</h3>
+                        <p>Hack The Box &middot; <em>In progress</em></p>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <p class="kicker mono">05 / Skills</p>
+                    <h2>Toolkit</h2>
+                </div>
+                <div class="skill-grid">
+                    <div class="card reveal">
+                        <h3><i class="fa fa-crosshairs" aria-hidden="true"></i> Security Operations</h3>
+                        <div class="tags"><span>Microsoft Sentinel</span><span>KQL</span><span>Microsoft Defender</span><span>MITRE ATT&amp;CK</span><span>Wireshark</span><span>Tenable Nessus</span></div>
+                    </div>
+                    <div class="card reveal">
+                        <h3><i class="fa fa-cloud" aria-hidden="true"></i> Cloud &amp; Identity</h3>
+                        <div class="tags"><span>Microsoft Entra ID</span><span>Azure</span><span>Microsoft 365 Security</span><span>IAM</span></div>
+                    </div>
+                    <div class="card reveal">
+                        <h3><i class="fa fa-mobile" aria-hidden="true"></i> Endpoint &amp; IT Ops</h3>
+                        <div class="tags"><span>Ivanti Neurons MDM</span><span>Apple Business Manager</span><span>ServiceNow</span><span>BeyondTrust</span><span>Calero</span></div>
+                    </div>
+                    <div class="card reveal">
+                        <h3><i class="fa fa-code" aria-hidden="true"></i> Automation &amp; More</h3>
+                        <div class="tags"><span>PowerShell</span><span>Python</span><span>Linux</span><span>NIST 800-171</span><span>Technical Documentation</span><span>Bilingual</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-alt">
+            <div class="container contact">
+                <div class="section-head">
+                    <p class="kicker mono">06 / Contact</p>
+                    <h2>Let's Connect</h2>
+                    <p class="muted">Have a role, a question, or just want to talk security? Send me a message.</p>
+                    <a href="mailto:edwinnavaa29@gmail.com" class="text-link"><i class="fa fa-envelope" aria-hidden="true"></i> edwinnavaa29@gmail.com</a>
+                </div>
+                <form class="card contact-form" method="POST" action="https://formspree.io/f/mqkjlgdn">
+                    <input type="hidden" name="_subject" value="Contact request from personal website">
+                    <label>Your email
+                        <input type="email" name="_replyto" placeholder="you@example.com" required>
+                    </label>
+                    <label>Message
+                        <textarea name="message" rows="5" placeholder="Hi Edwin..." required></textarea>
+                    </label>
+                    <button type="submit" class="btn">Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="current-year">2026</span> Edwin Nava</p>
+            <div class="hero-social">
+                <a href="https://github.com/edwinnava" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/edwinnava29/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="mailto:edwinnavaa29@gmail.com" aria-label="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+            <a href="#top" class="to-top" aria-label="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
         </div>
     </footer>
-    <!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
